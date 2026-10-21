@@ -167,4 +167,5 @@ $('mn').textContent=C.mus[0];$('ma').textContent=C.mus[1];$('bt').textContent='8
 function tick(){const d=new Date(),h=d.getHours(),m=String(d.getMinutes()).padStart(2,'0');clk=h+':'+m;$('tt').textContent=clk;$('dt').textContent=(d.getMonth()+1)+'월 '+d.getDate()+'일 '+'일월화수목금토'[d.getDay()]+'요일';if(ph.dataset.s!='lock')$('sl').textContent=clk}
 tick();$('sl').textContent='SKT';setInterval(tick,20000);
 <script src="script.js"></script>
-</body></html>
+</body>
+</html>
